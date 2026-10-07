@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body {
+  color: #101a16;
+  background-color: #f3f4ee;
+  background-image:
+    linear-gradient(to right, #2b3a3332 1px, transparent 1px),
+    linear-gradient(to bottom, #2b3a3336 1px, transparent 1px);
+  background-size: 26px 26px;
+  background-attachment: fixed;
+
+  font-family: "Bricolage Grotesque", sans-serif;
+}
